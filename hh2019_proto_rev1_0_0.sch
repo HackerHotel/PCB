@@ -10303,8 +10303,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </deviceset>
 </devicesets>
 </library>
-<library name="sha2017_rev0_1_0_dev">
-<description>Generated from &lt;b&gt;sha2017_rev0_1_0_dev.sch&lt;/b&gt;&lt;p&gt;
+<library name="hh2019_rev0_1_0_dev">
+<description>Generated from &lt;b&gt;hh2019_rev0_1_0_dev.sch&lt;/b&gt;&lt;p&gt;
 by exp-lbrs.ulp</description>
 <packages>
 <package name="C0603-DASHES">
@@ -10861,22 +10861,22 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <part name="Q4" library="SparkFun-DiscreteSemi" deviceset="TRANSISTOR_NPN" device="MMBT2222A" value="MMBT2222A">
 <attribute name="PARTNO" value="BC817-25,215"/>
 </part>
-<part name="R18" library="sha2017_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="10k">
+<part name="R18" library="hh2019_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="10k">
 <attribute name="PARTNO" value="ERJ-3GEYJ103V"/>
 </part>
-<part name="R15" library="sha2017_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="10k">
+<part name="R15" library="hh2019_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="10k">
 <attribute name="PARTNO" value="ERJ-3GEYJ103V"/>
 </part>
-<part name="C11" library="sha2017_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="100n">
+<part name="C11" library="hh2019_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="100n">
 <attribute name="PARTNO" value="GRM188R71H104KA93D"/>
 </part>
-<part name="C8" library="sha2017_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="100n">
+<part name="C8" library="hh2019_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="100n">
 <attribute name="PARTNO" value="GRM188R71H104KA93D"/>
 </part>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
 <part name="GND7" library="supply1" deviceset="GND" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="R13" library="sha2017_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="10k">
+<part name="R13" library="hh2019_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="10k">
 <attribute name="PARTNO" value="ERJ-3GEYJ103V"/>
 </part>
 <part name="P+2" library="supply1" deviceset="+5V" device=""/>
@@ -10892,7 +10892,7 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <part name="D7" library="SparkFun-DiscreteSemi" deviceset="BAT20JFILM" device="" value="NSVR0320MW2T1G">
 <attribute name="PARTNO" value="BAT20JFILM"/>
 </part>
-<part name="C14" library="sha2017_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="100n">
+<part name="C14" library="hh2019_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="100n">
 <attribute name="PARTNO" value="GRM188R71H104KA93D"/>
 </part>
 <part name="C15" library="rcl" deviceset="C-EU" device="C0805" value="4u7/16V">
@@ -10901,10 +10901,10 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <part name="C17" library="rcl" deviceset="C-EU" device="C0805" value="4u7/16V">
 <attribute name="PARTNO" value="GRM21BR61C475KA88K"/>
 </part>
-<part name="C22" library="sha2017_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="100n">
+<part name="C22" library="hh2019_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="100n">
 <attribute name="PARTNO" value="GRM188R71H104KA93D"/>
 </part>
-<part name="C27" library="sha2017_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="100n">
+<part name="C27" library="hh2019_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="100n">
 <attribute name="PARTNO" value="GRM188R71H104KA93D"/>
 </part>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
@@ -10925,41 +10925,41 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <part name="X1" library="EAGLE-FPC_CONNECTOR_AND_FFC_CAB-rev1" deviceset="68712414022" device="">
 <attribute name="PARTNO" value="68712414022"/>
 </part>
-<part name="C32" library="sha2017_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="1u">
+<part name="C32" library="hh2019_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="1u">
 <attribute name="PARTNO" value="GRM188R61E105KA12D"/>
 </part>
-<part name="C36" library="sha2017_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="1u">
+<part name="C36" library="hh2019_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="1u">
 <attribute name="PARTNO" value="GRM188R61E105KA12D"/>
 </part>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="GND31" library="supply1" deviceset="GND" device=""/>
-<part name="C25" library="sha2017_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="1u">
+<part name="C25" library="hh2019_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="1u">
 <attribute name="PARTNO" value="GRM188R61E105KA12D"/>
 </part>
-<part name="R19" library="sha2017_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="2R7">
+<part name="R19" library="hh2019_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="2R7">
 <attribute name="PARTNO" value="ERJ-3GEYJ5R1V"/>
 </part>
 <part name="GND32" library="supply1" deviceset="GND" device=""/>
-<part name="C19" library="sha2017_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="1u">
+<part name="C19" library="hh2019_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="1u">
 <attribute name="PARTNO" value="GRM188R61E105KA12D"/>
 </part>
-<part name="C21" library="sha2017_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="1u">
+<part name="C21" library="hh2019_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="1u">
 <attribute name="PARTNO" value="GRM188R61E105KA12D"/>
 </part>
-<part name="C33" library="sha2017_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="1u">
+<part name="C33" library="hh2019_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="1u">
 <attribute name="PARTNO" value="GRM188R61E105KA12D"/>
 </part>
-<part name="C35" library="sha2017_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="1u">
+<part name="C35" library="hh2019_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="1u">
 <attribute name="PARTNO" value="GRM188R61E105KA12D"/>
 </part>
-<part name="C38" library="sha2017_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="1u">
+<part name="C38" library="hh2019_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="1u">
 <attribute name="PARTNO" value="GRM188R61E105KA12D"/>
 </part>
 <part name="GND33" library="supply1" deviceset="GND" device=""/>
 <part name="GND34" library="supply1" deviceset="GND" device=""/>
 <part name="GND35" library="supply1" deviceset="GND" device=""/>
 <part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
-<part name="C39" library="sha2017_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="1u">
+<part name="C39" library="hh2019_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="1u">
 <attribute name="PARTNO" value="GRM188R61E105KA12D"/>
 </part>
 <part name="L1" library="SparkFun-Passives" deviceset="INDUCTOR" device="1210" value="47µ">
@@ -10975,27 +10975,27 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 </part>
 <part name="FRAME3" library="frames" deviceset="A3L-LOC" device=""/>
 <part name="FRAME4" library="frames" deviceset="A3L-LOC" device=""/>
-<part name="R22" library="sha2017_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="10k">
+<part name="R22" library="hh2019_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="10k">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 <attribute name="PARTNO" value="ERJ-3GEYJ103V"/>
 </part>
 <part name="+2V1" library="supply1" deviceset="+3V3" device=""/>
-<part name="C28" library="sha2017_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="100n">
+<part name="C28" library="hh2019_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="100n">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 <attribute name="PARTNO" value="GRM188R71H104KA93D"/>
 </part>
-<part name="C29" library="sha2017_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="100n">
+<part name="C29" library="hh2019_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="100n">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 <attribute name="PARTNO" value="GRM188R71H104KA93D"/>
 </part>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
-<part name="R16" library="sha2017_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="10k">
+<part name="R16" library="hh2019_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="10k">
 <attribute name="PARTNO" value="ERJ-3GEYJ103V"/>
 </part>
 <part name="+3V10" library="supply1" deviceset="+3V3" device=""/>
@@ -11004,19 +11004,19 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <variant name="PRODUCTION" populate="no"/>
 </part>
 <part name="GND59" library="supply1" deviceset="GND" device=""/>
-<part name="R31" library="sha2017_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="100k">
+<part name="R31" library="hh2019_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="100k">
 <attribute name="PARTNO" value="ERJ-3GEYJ104V"/>
 </part>
 <part name="D4" library="SparkFun-LED" deviceset="LED" device="0603" value="Yellow"/>
 <part name="D5" library="SparkFun-LED" deviceset="LED" device="0603" value="RED"/>
 <part name="D6" library="SparkFun-LED" deviceset="LED" device="0603" value="green"/>
-<part name="R12" library="sha2017_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="1k">
+<part name="R12" library="hh2019_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="1k">
 <attribute name="PARTNO" value="ERJ-3GEYJ102V"/>
 </part>
-<part name="R3" library="sha2017_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="1k">
+<part name="R3" library="hh2019_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="1k">
 <attribute name="PARTNO" value="ERJ-3GEYJ102V"/>
 </part>
-<part name="R14" library="sha2017_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="1k">
+<part name="R14" library="hh2019_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="1k">
 <attribute name="PARTNO" value="ERJ-3GEYJ102V"/>
 </part>
 <part name="VDD1" library="supply1" deviceset="VDD" device=""/>
@@ -11029,7 +11029,7 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <attribute name="PARTNO" value="GRM21BR61C475KA88K"/>
 </part>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
-<part name="C40" library="sha2017_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="100n">
+<part name="C40" library="hh2019_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="100n">
 <attribute name="PARTNO" value="GRM188R71H104KA93D"/>
 </part>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
@@ -11098,23 +11098,23 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <attribute name="PARTNO" value="ERJ-3GEYJ103V"/>
 </part>
 <part name="GND39" library="supply1" deviceset="GND" device=""/>
-<part name="C6" library="sha2017_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="100n">
+<part name="C6" library="hh2019_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="100n">
 <attribute name="PARTNO" value="GRM188R71H104KA93D"/>
 </part>
-<part name="C3" library="sha2017_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="100n">
+<part name="C3" library="hh2019_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="100n">
 <attribute name="PARTNO" value="GRM188R71H104KA93D"/>
 </part>
-<part name="C5" library="sha2017_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="100n">
+<part name="C5" library="hh2019_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="100n">
 <attribute name="PARTNO" value="GRM188R71H104KA93D"/>
 </part>
-<part name="C1" library="sha2017_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="100n">
+<part name="C1" library="hh2019_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="100n">
 <attribute name="PARTNO" value="GRM188R71H104KA93D"/>
 </part>
 <part name="GND40" library="supply1" deviceset="GND" device=""/>
 <part name="GND41" library="supply1" deviceset="GND" device=""/>
 <part name="GND42" library="supply1" deviceset="GND" device=""/>
 <part name="GND43" library="supply1" deviceset="GND" device=""/>
-<part name="C2" library="sha2017_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="100n">
+<part name="C2" library="hh2019_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="100n">
 <attribute name="PARTNO" value="GRM188R71H104KA93D"/>
 </part>
 <part name="GND44" library="supply1" deviceset="GND" device=""/>
@@ -11137,29 +11137,29 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="U$7" library="microbuilder" deviceset="VBAT" device=""/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
-<part name="R29" library="sha2017_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="1.2k">
+<part name="R29" library="hh2019_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="1.2k">
 <attribute name="PARTNO" value="ERJ-3GEYJ222V"/>
 </part>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
-<part name="R32" library="sha2017_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="10k">
+<part name="R32" library="hh2019_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="10k">
 <attribute name="PARTNO" value="ERJ-3GEYJ154V"/>
 </part>
 <part name="X4" library="badge" deviceset="JST-PH3" device=""/>
-<part name="C23" library="sha2017_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="100n">
+<part name="C23" library="hh2019_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="100n">
 <attribute name="PARTNO" value="GRM188R71H104KA93D"/>
 </part>
 <part name="T1" library="SparkFun-DiscreteSemi" deviceset="MOSFET-PCHANNEL" device="" value="">
 <attribute name="PARTNO" value=""/>
 </part>
-<part name="R4" library="sha2017_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="10k">
+<part name="R4" library="hh2019_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="10k">
 <attribute name="PARTNO" value="ERJ-3GEYJ103V"/>
 </part>
 <part name="GND49" library="supply1" deviceset="GND" device=""/>
 <part name="P+3" library="supply1" deviceset="+5V" device=""/>
-<part name="R21" library="sha2017_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="220k">
+<part name="R21" library="hh2019_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="220k">
 <attribute name="PARTNO" value="ERJ-3GEYJ224V"/>
 </part>
-<part name="R20" library="sha2017_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="100k">
+<part name="R20" library="hh2019_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="100k">
 <attribute name="PARTNO" value="ERJ-3GEYJ104V"/>
 </part>
 <part name="GND50" library="supply1" deviceset="GND" device=""/>
@@ -11169,21 +11169,21 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <part name="D3" library="SparkFun-DiscreteSemi" deviceset="BAT20JFILM" device="" value="NSVR0320MW2T1G">
 <attribute name="PARTNO" value="BAT20JFILM"/>
 </part>
-<part name="C16" library="sha2017_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="100n">
+<part name="C16" library="hh2019_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="100n">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 <attribute name="PARTNO" value="GRM188R71H104KA93D"/>
 </part>
 <part name="GND51" library="supply1" deviceset="GND" device=""/>
-<part name="R7" library="sha2017_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="220k">
+<part name="R7" library="hh2019_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="220k">
 <attribute name="PARTNO" value="ERJ-3GEYJ224V"/>
 </part>
-<part name="R6" library="sha2017_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="100k">
+<part name="R6" library="hh2019_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="100k">
 <attribute name="PARTNO" value="ERJ-3GEYJ104V"/>
 </part>
 <part name="GND52" library="supply1" deviceset="GND" device=""/>
-<part name="C10" library="sha2017_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="100n">
+<part name="C10" library="hh2019_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="100n">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
@@ -11203,7 +11203,7 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 </part>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND54" library="supply1" deviceset="GND" device=""/>
-<part name="C44" library="sha2017_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="100n">
+<part name="C44" library="hh2019_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="100n">
 <attribute name="PARTNO" value="GRM188R71H104KA93D"/>
 </part>
 <part name="TP3" library="SparkFun-Passives" deviceset="TEST-POINT" device="3">
@@ -11227,13 +11227,13 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <part name="GND61" library="supply1" deviceset="GND" device=""/>
 <part name="M1" library="badge" deviceset="MOTOR" device="10MM"/>
 <part name="P+7" library="supply1" deviceset="VCC" device=""/>
-<part name="R24" library="sha2017_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="4k7">
+<part name="R24" library="hh2019_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="4k7">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 <attribute name="PARTNO" value="ERJ-3GEYJ103V"/>
 </part>
-<part name="R23" library="sha2017_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="4k7">
+<part name="R23" library="hh2019_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="4k7">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
@@ -11480,22 +11480,22 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <part name="TP139" library="SparkFun-Passives" deviceset="TEST-POINT" device="3">
 <attribute name="PARTNO" value="NAP"/>
 </part>
-<part name="R17" library="sha2017_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="10k">
+<part name="R17" library="hh2019_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="10k">
 <attribute name="PARTNO" value="ERJ-3GEYJ103V"/>
 </part>
 <part name="R8" library="00ralf" deviceset="R0603-DASHES" device="" value="10k">
 <attribute name="PARTNO" value="ERJ-3GEYJ103V"/>
 </part>
-<part name="R25" library="sha2017_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="10k">
+<part name="R25" library="hh2019_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="10k">
 <attribute name="PARTNO" value="ERJ-3GEYJ103V"/>
 </part>
 <part name="R5" library="00ralf" deviceset="R0603-DASHES" device="" value="10k">
 <attribute name="PARTNO" value="ERJ-3GEYJ103V"/>
 </part>
-<part name="C12" library="sha2017_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="100n">
+<part name="C12" library="hh2019_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="100n">
 <attribute name="PARTNO" value="GRM188R71H104KA93D"/>
 </part>
-<part name="C7" library="sha2017_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="100n">
+<part name="C7" library="hh2019_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="100n">
 <attribute name="PARTNO" value="GRM188R71H104KA93D"/>
 </part>
 <part name="GND91" library="supply1" deviceset="GND" device=""/>
@@ -11510,11 +11510,11 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <attribute name="PARTNO" value="SK6812"/>
 </part>
 <part name="GND90" library="supply1" deviceset="GND" device=""/>
-<part name="C4" library="sha2017_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="100n">
+<part name="C4" library="hh2019_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="100n">
 <attribute name="PARTNO" value="GRM188R71H104KA93D"/>
 </part>
 <part name="GND93" library="supply1" deviceset="GND" device=""/>
-<part name="C37" library="sha2017_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="100n">
+<part name="C37" library="hh2019_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="100n">
 <attribute name="PARTNO" value="GRM188R71H104KA93D"/>
 </part>
 <part name="GND94" library="supply1" deviceset="GND" device=""/>
@@ -11545,7 +11545,7 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <attribute name="PARTNO" value="GRM21BR61C475KA88K"/>
 </part>
 <part name="GND96" library="supply1" deviceset="GND" device=""/>
-<part name="C31" library="sha2017_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="100n">
+<part name="C31" library="hh2019_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="100n">
 <attribute name="PARTNO" value="GRM188R71H104KA93D"/>
 </part>
 <part name="GND97" library="supply1" deviceset="GND" device=""/>
@@ -11554,7 +11554,7 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 </part>
 <part name="GND98" library="supply1" deviceset="GND" device=""/>
 <part name="IC4" library="TP4056" deviceset="TP4056" device=""/>
-<part name="R35" library="sha2017_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="1.2k">
+<part name="R35" library="hh2019_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="1.2k">
 <attribute name="PARTNO" value="ERJ-3GEYJ222V"/>
 </part>
 <part name="GND99" library="supply1" deviceset="GND" device=""/>
@@ -11562,7 +11562,7 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <attribute name="PARTNO" value="NAP"/>
 </part>
 <part name="GND100" library="supply1" deviceset="GND" device=""/>
-<part name="R36" library="sha2017_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="100k">
+<part name="R36" library="hh2019_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="100k">
 <attribute name="PARTNO" value="ERJ-3GEYJ104V"/>
 </part>
 <part name="+3V7" library="supply1" deviceset="+3V3" device=""/>
@@ -11571,32 +11571,32 @@ Source: http://www.st.com/stonline/products/literature/ds/7194/ld1117axx.pdf</de
 <attribute name="PARTNO" value="ERJ-3GEYJ154V"/>
 </part>
 <part name="P+12" library="supply1" deviceset="+5V" device=""/>
-<part name="C45" library="sha2017_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="100n">
+<part name="C45" library="hh2019_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="100n">
 <attribute name="PARTNO" value="GRM188R71H104KA93D"/>
 </part>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="GND48" library="supply1" deviceset="GND" device=""/>
-<part name="R37" library="sha2017_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="75k 1%">
+<part name="R37" library="hh2019_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="75k 1%">
 <attribute name="PARTNO" value="ERJ-3GEYJ104V"/>
 </part>
 <part name="GND101" library="supply1" deviceset="GND" device=""/>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
 <part name="TOUCH_SELECT" library="badge" deviceset="TOUCH" device="SELECT"/>
 <part name="TOUCH_START" library="badge" deviceset="TOUCH" device="SELECT"/>
-<part name="R1" library="sha2017_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="100k">
+<part name="R1" library="hh2019_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="100k">
 <attribute name="PARTNO" value="ERJ-3GEYJ104V"/>
 </part>
 <part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND55" library="supply1" deviceset="GND" device=""/>
-<part name="C42" library="sha2017_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="1u">
+<part name="C42" library="hh2019_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="1u">
 <attribute name="PARTNO" value="GRM188R61E105KA12D"/>
 </part>
-<part name="R26" library="sha2017_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="0R">
+<part name="R26" library="hh2019_rev0_1_0_dev" deviceset="R0603-DASHES" device="" value="0R">
 <attribute name="PARTNO" value="ERJ-3GEYJ5R1V"/>
 </part>
 <part name="+3V11" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND36" library="supply1" deviceset="GND" device=""/>
-<part name="C46" library="sha2017_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="1u">
+<part name="C46" library="hh2019_rev0_1_0_dev" deviceset="C0603-DASHES" device="" value="1u">
 <attribute name="PARTNO" value="GRM188R61E105KA12D"/>
 </part>
 </parts>
@@ -11640,7 +11640,7 @@ flash</text>
 <text x="335.28" y="238.76" size="1.778" layer="97">Model selector:
 GDEH029A1: Populate R26
 DEPG0290B01: Do not populate R26</text>
-<text x="344.17" y="20.32" size="2.54" layer="94">SHA2017 Badge</text>
+<text x="344.17" y="20.32" size="2.54" layer="94">hh2019 Badge</text>
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="110.49" y="212.09">

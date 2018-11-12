@@ -15942,8 +15942,8 @@ Source: AVX .. aphvc.pdf</description>
 <instance part="+3V11" gate="G$1" x="129.54" y="137.16" smashed="yes" rot="MR90">
 <attribute name="VALUE" x="124.46" y="134.62" size="1.778" layer="96" rot="MR180"/>
 </instance>
-<instance part="GND1" gate="1" x="127" y="83.82" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="129.54" y="81.28" size="1.778" layer="96" rot="MR0"/>
+<instance part="GND1" gate="1" x="132.08" y="83.82" smashed="yes" rot="MR0">
+<attribute name="VALUE" x="134.62" y="81.28" size="1.778" layer="96" rot="MR0"/>
 </instance>
 <instance part="U3" gate="G$1" x="200.66" y="73.66" smashed="yes">
 <attribute name="NAME" x="200.66" y="134.62" size="1.6764" layer="94"/>
@@ -16201,6 +16201,7 @@ Source: AVX .. aphvc.pdf</description>
 <segment>
 <pinref part="U2" gate="G$1" pin="GND"/>
 <pinref part="GND1" gate="1" pin="GND"/>
+<wire x1="132.08" y1="86.36" x2="127" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J1" gate="G$1" pin="2"/>
@@ -16915,6 +16916,11 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="U3" gate="G$1" pin="LRCK"/>
 <wire x1="195.58" y1="127" x2="190.5" y2="127" width="0.1524" layer="91"/>
 <label x="190.5" y="127" size="1.778" layer="95" rot="R180"/>
+<label x="91.44" y="119.38" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="IO15"/>
+<wire x1="91.44" y1="119.38" x2="96.52" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="I2S_SCK" class="0">
@@ -16922,6 +16928,11 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="U3" gate="G$1" pin="BCK"/>
 <wire x1="195.58" y1="124.46" x2="190.5" y2="124.46" width="0.1524" layer="91"/>
 <label x="190.5" y="124.46" size="1.778" layer="95" rot="R180"/>
+<label x="91.44" y="124.46" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="IO13"/>
+<wire x1="91.44" y1="124.46" x2="96.52" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="I2S_SD" class="0">
@@ -16929,6 +16940,11 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="U3" gate="G$1" pin="DIN"/>
 <wire x1="195.58" y1="121.92" x2="190.5" y2="121.92" width="0.1524" layer="91"/>
 <label x="190.5" y="121.92" size="1.778" layer="95" rot="R180"/>
+<label x="91.44" y="134.62" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="U2" gate="G$1" pin="IO2"/>
+<wire x1="91.44" y1="134.62" x2="96.52" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="AUDIO_L" class="0">

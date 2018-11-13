@@ -15708,8 +15708,8 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="VALUE" x="132.715" y="191.262" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="D5" gate="G$1" x="143.51" y="186.69" smashed="yes" rot="R180">
-<attribute name="NAME" x="139.954" y="191.262" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="137.795" y="191.262" size="1.778" layer="96" rot="R270"/>
+<attribute name="NAME" x="150.114" y="191.262" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="147.955" y="191.262" size="1.778" layer="96" rot="R270"/>
 </instance>
 <instance part="D6" gate="G$1" x="170.18" y="231.14" smashed="yes" rot="R270">
 <attribute name="NAME" x="165.608" y="227.584" size="1.778" layer="95"/>
@@ -17586,7 +17586,7 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="T2" gate="G$1" pin="S"/>
 </segment>
 </net>
-<net name="N$7" class="0">
+<net name="PROG" class="0">
 <segment>
 <pinref part="IC4" gate="G$1" pin="PROG"/>
 <pinref part="R29" gate="G$1" pin="1"/>
@@ -17610,9 +17610,11 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="IC4" gate="G$1" pin="TEMP"/>
 <pinref part="R32" gate="G$1" pin="1"/>
 <wire x1="160.02" y1="144.78" x2="170.18" y2="144.78" width="0.1524" layer="91"/>
-<wire x1="170.18" y1="144.78" x2="186.69" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="170.18" y1="144.78" x2="177.8" y2="144.78" width="0.1524" layer="91"/>
 <junction x="170.18" y="144.78"/>
-<label x="180.34" y="144.78" size="1.778" layer="95"/>
+<label x="180.34" y="144.78" size="1.778" layer="95" xref="yes"/>
+<wire x1="177.8" y1="144.78" x2="179.07" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="180.34" y1="144.78" x2="179.07" y2="144.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="71.12" y1="147.32" x2="86.36" y2="147.32" width="0.1524" layer="91"/>
@@ -17788,7 +17790,7 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="208.28" y1="60.96" x2="208.28" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$12" class="2">
+<net name="CE" class="2">
 <segment>
 <pinref part="IC4" gate="G$1" pin="VCC"/>
 <wire x1="160.02" y1="137.16" x2="162.56" y2="137.16" width="0.1524" layer="91"/>

@@ -15449,12 +15449,6 @@ Source: AVX .. aphvc.pdf</description>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="U3" library="DMF-TI_DIR9001" deviceset="PCM5102A" device=""/>
 <part name="J1" library="audioconn" deviceset="PJ-313" device="D"/>
-<part name="C31" library="hh2019_proto" deviceset="C0603-DASHES" device="" value="100n">
-<attribute name="MF" value=""/>
-<attribute name="MPN" value=""/>
-<attribute name="OC_FARNELL" value="unknown"/>
-<attribute name="PARTNO" value="GRM188R71H104KA93D"/>
-</part>
 <part name="C37" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="100n"/>
 <part name="C40" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1u"/>
 <part name="C49" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="1u"/>
@@ -15852,14 +15846,6 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="NAME" x="139.7" y="66.04" size="1.778" layer="95"/>
 <attribute name="VALUE" x="139.7" y="50.8" size="1.778" layer="96"/>
 </instance>
-<instance part="C31" gate="G$1" x="101.6" y="114.3" smashed="yes" rot="R270">
-<attribute name="OC_FARNELL" x="101.6" y="114.3" size="1.778" layer="96" rot="MR90" display="off"/>
-<attribute name="MF" x="101.6" y="114.3" size="1.778" layer="96" rot="MR90" display="off"/>
-<attribute name="MPN" x="101.6" y="114.3" size="1.778" layer="96" rot="MR90" display="off"/>
-<attribute name="PARTNO" x="101.6" y="114.3" size="1.778" layer="96" rot="R180" display="off"/>
-<attribute name="NAME" x="103.251" y="112.776" size="1.778" layer="95" rot="R270"/>
-<attribute name="VALUE" x="98.171" y="112.776" size="1.778" layer="96" rot="R270"/>
-</instance>
 <instance part="C37" gate="G$1" x="200.66" y="121.92" smashed="yes" rot="R180">
 <attribute name="NAME" x="199.136" y="121.539" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="199.136" y="126.619" size="1.778" layer="96" rot="R180"/>
@@ -16054,8 +16040,6 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="109.22" y1="116.84" x2="109.22" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="C29" gate="G$1" pin="1"/>
 <pinref part="GND5" gate="1" pin="GND"/>
-<pinref part="C31" gate="G$1" pin="1"/>
-<junction x="105.41" y="114.3"/>
 <wire x1="109.22" y1="114.3" x2="109.22" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="105.41" y1="114.3" x2="109.22" y2="114.3" width="0.1524" layer="91"/>
 <junction x="109.22" y="114.3"/>
@@ -16625,7 +16609,6 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="C29" gate="G$1" pin="2"/>
 <wire x1="97.79" y1="114.3" x2="100.076" y2="114.3" width="0.1524" layer="91"/>
 <junction x="97.79" y="114.3"/>
-<pinref part="C31" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="WS2812_DATA" class="0">

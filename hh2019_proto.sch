@@ -17860,70 +17860,70 @@ Source: AVX .. aphvc.pdf</description>
 </net>
 <net name="ELE4" class="3">
 <segment>
-<pinref part="TOUCH_SEL" gate="G$1" pin="DOWN"/>
 <pinref part="U1" gate="A" pin="ELE4"/>
-<wire x1="104.14" y1="83.82" x2="190.5" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="83.82" x2="190.5" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="83.82" x2="172.72" y2="83.82" width="0.1524" layer="91"/>
+<pinref part="TOUCH_SEL" gate="G$1" pin="UP"/>
+<wire x1="172.72" y1="83.82" x2="172.72" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="172.72" y1="106.68" x2="190.5" y2="106.68" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ELE0" class="3">
 <segment>
-<pinref part="TOUCH_A" gate="G$1" pin="P$1"/>
-<wire x1="170.18" y1="93.98" x2="170.18" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="U1" gate="A" pin="ELE0"/>
-<wire x1="104.14" y1="93.98" x2="170.18" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="93.98" x2="144.78" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="93.98" x2="144.78" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="TOUCH_START" gate="G$1" pin="P$1"/>
 </segment>
 </net>
 <net name="ELE1" class="3">
 <segment>
 <pinref part="U1" gate="A" pin="ELE1"/>
-<pinref part="TOUCH_B" gate="G$1" pin="P$1"/>
-<wire x1="104.14" y1="91.44" x2="157.48" y2="91.44" width="0.1524" layer="91"/>
-<wire x1="157.48" y1="91.44" x2="157.48" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="91.44" x2="132.08" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="TOUCH_SELECT" gate="G$1" pin="P$1"/>
+<wire x1="132.08" y1="91.44" x2="132.08" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ELE2" class="3">
 <segment>
 <pinref part="U1" gate="A" pin="ELE2"/>
-<pinref part="TOUCH_START" gate="G$1" pin="P$1"/>
-<wire x1="104.14" y1="88.9" x2="144.78" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="88.9" x2="144.78" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="88.9" x2="157.48" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="TOUCH_B" gate="G$1" pin="P$1"/>
+<wire x1="157.48" y1="88.9" x2="157.48" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ELE3" class="3">
 <segment>
 <pinref part="U1" gate="A" pin="ELE3"/>
-<pinref part="TOUCH_SELECT" gate="G$1" pin="P$1"/>
-<wire x1="104.14" y1="86.36" x2="132.08" y2="86.36" width="0.1524" layer="91"/>
-<wire x1="132.08" y1="86.36" x2="132.08" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="86.36" x2="165.1" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="86.36" x2="165.1" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="165.1" y1="111.76" x2="215.9" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="111.76" x2="215.9" y2="96.52" width="0.1524" layer="91"/>
+<pinref part="TOUCH_SEL" gate="G$1" pin="RIGHT"/>
+<wire x1="215.9" y1="96.52" x2="200.66" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ELE7" class="3">
 <segment>
 <pinref part="U1" gate="A" pin="ELE7"/>
-<pinref part="TOUCH_SEL" gate="G$1" pin="LEFT"/>
-<wire x1="104.14" y1="76.2" x2="180.34" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="180.34" y1="76.2" x2="180.34" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="76.2" x2="170.18" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="TOUCH_A" gate="G$1" pin="P$1"/>
+<wire x1="170.18" y1="76.2" x2="170.18" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ELE6" class="3">
 <segment>
 <pinref part="U1" gate="A" pin="ELE6"/>
-<wire x1="104.14" y1="78.74" x2="177.8" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="177.8" y1="78.74" x2="177.8" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="TOUCH_SEL" gate="G$1" pin="UP"/>
-<wire x1="177.8" y1="109.22" x2="190.5" y2="109.22" width="0.1524" layer="91"/>
-<wire x1="190.5" y1="109.22" x2="190.5" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="78.74" x2="190.5" y2="78.74" width="0.1524" layer="91"/>
+<pinref part="TOUCH_SEL" gate="G$1" pin="DOWN"/>
+<wire x1="190.5" y1="78.74" x2="190.5" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="ELE5" class="3">
 <segment>
 <pinref part="U1" gate="A" pin="ELE5"/>
-<wire x1="104.14" y1="81.28" x2="175.26" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="175.26" y1="81.28" x2="175.26" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="TOUCH_SEL" gate="G$1" pin="RIGHT"/>
-<wire x1="175.26" y1="111.76" x2="200.66" y2="111.76" width="0.1524" layer="91"/>
-<wire x1="200.66" y1="111.76" x2="200.66" y2="96.52" width="0.1524" layer="91"/>
+<wire x1="104.14" y1="81.28" x2="180.34" y2="81.28" width="0.1524" layer="91"/>
+<pinref part="TOUCH_SEL" gate="G$1" pin="LEFT"/>
+<wire x1="180.34" y1="81.28" x2="180.34" y2="96.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

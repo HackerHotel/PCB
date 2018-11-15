@@ -16224,7 +16224,7 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="U2" gate="G$1" pin="IO0"/>
 </segment>
 </net>
-<net name="N$8" class="0">
+<net name="RST" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="!RST"/>
 <pinref part="R13" gate="G$1" pin="2"/>

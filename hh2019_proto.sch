@@ -17507,18 +17507,6 @@ Source: AVX .. aphvc.pdf</description>
 <pinref part="T1" gate="G$1" pin="D"/>
 <pinref part="U$8" gate="G$1" pin="VBAT"/>
 </segment>
-<segment>
-<wire x1="124.46" y1="137.16" x2="92.71" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="71.12" y1="137.16" x2="92.71" y2="137.16" width="0.1524" layer="91"/>
-<wire x1="92.71" y1="137.16" x2="92.71" y2="139.7" width="0.1524" layer="91"/>
-<junction x="92.71" y="137.16"/>
-<pinref part="X4" gate="3" pin="1"/>
-<pinref part="F2" gate="G$1" pin="1"/>
-<pinref part="C34" gate="G$1" pin="1"/>
-<pinref part="IC4" gate="G$1" pin="BAT"/>
-<wire x1="124.46" y1="137.16" x2="132.08" y2="137.16" width="0.1524" layer="91"/>
-<junction x="124.46" y="137.16"/>
-</segment>
 </net>
 <net name="CHRG_STAT" class="0">
 <segment>
@@ -17907,6 +17895,20 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="104.14" y1="81.28" x2="180.34" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="TOUCH_SEL" gate="G$1" pin="LEFT"/>
 <wire x1="180.34" y1="81.28" x2="180.34" y2="96.52" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="BAT" class="1">
+<segment>
+<wire x1="124.46" y1="137.16" x2="92.71" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="X4" gate="3" pin="1"/>
+<pinref part="C34" gate="G$1" pin="1"/>
+<pinref part="IC4" gate="G$1" pin="BAT"/>
+<wire x1="91.44" y1="137.16" x2="71.12" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="137.16" x2="132.08" y2="137.16" width="0.1524" layer="91"/>
+<junction x="124.46" y="137.16"/>
+<pinref part="F2" gate="G$1" pin="1"/>
+<wire x1="92.71" y1="139.7" x2="92.71" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="92.71" y1="137.16" x2="91.44" y2="137.16" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

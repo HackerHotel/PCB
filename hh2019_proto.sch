@@ -17342,6 +17342,79 @@ Source: www.fairchildsemi.com</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="B4B-PH-SM4-TB">
+<packages>
+<package name="JST_B4B-PH-SM4-TB">
+<wire x1="-5.975" y1="-0.25" x2="5.975" y2="-0.25" width="0.127" layer="51"/>
+<wire x1="5.975" y1="-0.25" x2="5.975" y2="4.75" width="0.127" layer="51"/>
+<wire x1="5.975" y1="4.75" x2="-5.975" y2="4.75" width="0.127" layer="21"/>
+<wire x1="-5.975" y1="4.75" x2="-5.975" y2="-0.25" width="0.127" layer="51"/>
+<circle x="-3.9" y="-2.6" radius="0.127" width="0" layer="21"/>
+<wire x1="-6.75" y1="5.25" x2="-6.75" y2="-0.75" width="0.127" layer="39"/>
+<wire x1="-6.75" y1="-0.75" x2="-4.25" y2="-0.75" width="0.127" layer="39"/>
+<wire x1="-4.25" y1="-0.75" x2="-4.25" y2="-3.25" width="0.127" layer="39"/>
+<wire x1="-4.25" y1="-3.25" x2="4.25" y2="-3.25" width="0.127" layer="39"/>
+<wire x1="4.25" y1="-3.25" x2="4.25" y2="-0.75" width="0.127" layer="39"/>
+<wire x1="4.25" y1="-0.75" x2="6.75" y2="-0.75" width="0.127" layer="39"/>
+<wire x1="6.75" y1="-0.75" x2="6.75" y2="5.25" width="0.127" layer="39"/>
+<wire x1="6.75" y1="5.25" x2="-6.75" y2="5.25" width="0.127" layer="39"/>
+<text x="-6.75488125" y="5.50396875" size="1.27091875" layer="25">&gt;NAME</text>
+<text x="-6.75586875" y="-4.75413125" size="1.271109375" layer="27">&gt;VALUE</text>
+<smd name="2" x="-1" y="0" dx="1" dy="5.5" layer="1"/>
+<smd name="3" x="1" y="0" dx="1" dy="5.5" layer="1"/>
+<smd name="1" x="-3" y="0" dx="1" dy="5.5" layer="1"/>
+<smd name="4" x="3" y="0" dx="1" dy="5.5" layer="1"/>
+<smd name="P1" x="-5.4" y="2.25" dx="1.6" dy="3" layer="1"/>
+<smd name="P2" x="5.4" y="2.25" dx="1.6" dy="3" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="B4B-PH-SM4-TB">
+<wire x1="0" y1="3.81" x2="2.54" y2="3.81" width="0.762" layer="94"/>
+<wire x1="0" y1="1.27" x2="2.54" y2="1.27" width="0.762" layer="94"/>
+<wire x1="0" y1="-1.27" x2="2.54" y2="-1.27" width="0.762" layer="94"/>
+<wire x1="0" y1="-3.81" x2="2.54" y2="-3.81" width="0.762" layer="94"/>
+<wire x1="-2.54" y1="6.35" x2="-2.54" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-6.35" x2="5.08" y2="-6.35" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-6.35" x2="5.08" y2="6.35" width="0.254" layer="94"/>
+<wire x1="5.08" y1="6.35" x2="-2.54" y2="6.35" width="0.254" layer="94"/>
+<text x="-2.54143125" y="6.35358125" size="1.27071875" layer="95">&gt;NAME</text>
+<text x="-2.543009375" y="-7.629040625" size="1.271509375" layer="96">&gt;VALUE</text>
+<pin name="2" x="-5.08" y="1.27" length="middle" direction="pas"/>
+<pin name="1" x="-5.08" y="3.81" length="middle" direction="pas"/>
+<pin name="3" x="-5.08" y="-1.27" length="middle" direction="pas"/>
+<pin name="4" x="-5.08" y="-3.81" length="middle" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="B4B-PH-SM4-TB" prefix="P">
+<description>CONN HEADER PH TOP 4POS 2MM SMD</description>
+<gates>
+<gate name="G$1" symbol="B4B-PH-SM4-TB" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="JST_B4B-PH-SM4-TB">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="AVAILABILITY" value="Unavailable"/>
+<attribute name="DESCRIPTION" value=" Socket; wire-board; male; PIN: 4; 2mm; SMT; PH; 100V; 2A "/>
+<attribute name="MF" value="JST"/>
+<attribute name="MP" value="B4B-PH-SM4-TB"/>
+<attribute name="PACKAGE" value="None"/>
+<attribute name="PRICE" value="None"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -17817,6 +17890,7 @@ Source: www.fairchildsemi.com</description>
 </part>
 <part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="SHITTY-ADDON" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X2" device="" package3d_urn="urn:adsk.eagle:package:22455/2"/>
+<part name="P1" library="B4B-PH-SM4-TB" deviceset="B4B-PH-SM4-TB" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -18287,6 +18361,10 @@ Source: www.fairchildsemi.com</description>
 <attribute name="NAME" x="255.27" y="102.235" size="1.778" layer="95"/>
 <attribute name="VALUE" x="255.27" y="91.44" size="1.778" layer="96"/>
 </instance>
+<instance part="P1" gate="G$1" x="261.62" y="81.28" smashed="yes" rot="R90">
+<attribute name="NAME" x="255.26641875" y="78.73856875" size="1.27071875" layer="95" rot="R90"/>
+<attribute name="VALUE" x="269.249040625" y="78.736990625" size="1.271509375" layer="96" rot="R90"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -18520,6 +18598,12 @@ Source: www.fairchildsemi.com</description>
 <pinref part="SHITTY-ADDON" gate="A" pin="1"/>
 <wire x1="259.08" y1="99.06" x2="251.46" y2="99.06" width="0.1524" layer="91"/>
 <label x="251.46" y="99.06" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="P1" gate="G$1" pin="4"/>
+<wire x1="265.43" y1="76.2" x2="265.43" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="265.43" y1="66.04" x2="256.54" y2="66.04" width="0.1524" layer="91"/>
+<label x="256.54" y="66.04" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="+5V" class="2">
@@ -19088,6 +19172,12 @@ Source: www.fairchildsemi.com</description>
 <wire x1="266.7" y1="96.52" x2="274.32" y2="96.52" width="0.1524" layer="91"/>
 <label x="274.32" y="96.52" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="P1" gate="G$1" pin="2"/>
+<wire x1="260.35" y1="76.2" x2="260.35" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="260.35" y1="71.12" x2="256.54" y2="71.12" width="0.1524" layer="91"/>
+<label x="256.54" y="71.12" size="1.778" layer="95" rot="R180"/>
+</segment>
 </net>
 <net name="I2C_SCL" class="0">
 <segment>
@@ -19099,6 +19189,12 @@ Source: www.fairchildsemi.com</description>
 <pinref part="SHITTY-ADDON" gate="A" pin="3"/>
 <wire x1="259.08" y1="96.52" x2="251.46" y2="96.52" width="0.1524" layer="91"/>
 <label x="251.46" y="96.52" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="P1" gate="G$1" pin="1"/>
+<wire x1="257.81" y1="76.2" x2="257.81" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="257.81" y1="73.66" x2="256.54" y2="73.66" width="0.1524" layer="91"/>
+<label x="256.54" y="73.66" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 <net name="I2C_INT" class="0">
@@ -19282,6 +19378,14 @@ Source: www.fairchildsemi.com</description>
 <pinref part="JP2" gate="G$1" pin="1"/>
 <wire x1="302.26" y1="116.84" x2="292.1" y2="116.84" width="0.1524" layer="91"/>
 <label x="292.1" y="116.84" size="1.778" layer="95" rot="R180"/>
+</segment>
+</net>
+<net name="VCC" class="1">
+<segment>
+<pinref part="P1" gate="G$1" pin="3"/>
+<wire x1="262.89" y1="76.2" x2="262.89" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="262.89" y1="68.58" x2="256.54" y2="68.58" width="0.1524" layer="91"/>
+<label x="256.54" y="68.58" size="1.778" layer="95" rot="R180"/>
 </segment>
 </net>
 </nets>

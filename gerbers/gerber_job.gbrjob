@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2018-12-31T11:05:42Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.2.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.67,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "hh2019_proto"
+        },
+        "Owner": "X X <tom.justme@gmail.com>",
+        "Size": {
+            "X": 80.774259,
+            "Y": 165.7444
+        }
+    }
+}

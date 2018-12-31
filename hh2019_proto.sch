@@ -17233,115 +17233,6 @@ Source: www.kingbright.com</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="transistor-power" urn="urn:adsk.eagle:library:400">
-<description>&lt;b&gt;Power Transistors&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="SO-08" urn="urn:adsk.eagle:footprint:29404/1" library_version="2">
-<description>&lt;B&gt;Small Outline Narrow Plastic Gull Wing&lt;/B&gt;&lt;p&gt;
-150-mil body, package type SN</description>
-<wire x1="-2.9" y1="3.9" x2="2.9" y2="3.9" width="0.1998" layer="39"/>
-<wire x1="2.9" y1="3.9" x2="2.9" y2="-3.9" width="0.1998" layer="39"/>
-<wire x1="2.9" y1="-3.9" x2="-2.9" y2="-3.9" width="0.1998" layer="39"/>
-<wire x1="-2.9" y1="-3.9" x2="-2.9" y2="3.9" width="0.1998" layer="39"/>
-<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.4" width="0.2032" layer="51"/>
-<wire x1="2.4" y1="-1.4" x2="2.4" y2="-1.9" width="0.2032" layer="51"/>
-<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.2032" layer="51"/>
-<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
-<wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.9" width="0.2032" layer="51"/>
-<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.2032" layer="51"/>
-<wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
-<smd name="2" x="-0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="7" x="-0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="1" x="-1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="3" x="0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="4" x="1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="8" x="-1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="6" x="0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="5" x="1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<text x="-2.667" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="3.937" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<text x="-1.905" y="-0.635" size="0.4064" layer="48">IPC SO8</text>
-<text x="-1.905" y="0.365" size="0.3048" layer="48">JEDEC MS-012 AA</text>
-<rectangle x1="-2.1501" y1="-3.1001" x2="-1.6599" y2="-2" layer="51"/>
-<rectangle x1="-0.8801" y1="-3.1001" x2="-0.3899" y2="-2" layer="51"/>
-<rectangle x1="0.3899" y1="-3.1001" x2="0.8801" y2="-2" layer="51"/>
-<rectangle x1="1.6599" y1="-3.1001" x2="2.1501" y2="-2" layer="51"/>
-<rectangle x1="1.6599" y1="2" x2="2.1501" y2="3.1001" layer="51"/>
-<rectangle x1="0.3899" y1="2" x2="0.8801" y2="3.1001" layer="51"/>
-<rectangle x1="-0.8801" y1="2" x2="-0.3899" y2="3.1001" layer="51"/>
-<rectangle x1="-2.1501" y1="2" x2="-1.6599" y2="3.1001" layer="51"/>
-<rectangle x1="-1" y1="-1" x2="1" y2="1" layer="35"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="SO-08" urn="urn:adsk.eagle:package:29505/2" type="model" library_version="2">
-<description>Small Outline Narrow Plastic Gull Wing
-150-mil body, package type SN</description>
-<packageinstances>
-<packageinstance name="SO-08"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="MFN" urn="urn:adsk.eagle:symbol:29376/1" library_version="2">
-<wire x1="-1.1176" y1="2.413" x2="-1.1176" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-1.1176" y1="-2.54" x2="-2.54" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="1.905" x2="0.5334" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="1.905" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="0" x2="2.54" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="0.508" y1="-1.905" x2="2.54" y2="-1.905" width="0.1524" layer="94"/>
-<wire x1="2.54" y1="-1.905" x2="2.54" y2="-2.54" width="0.1524" layer="94"/>
-<wire x1="0.508" y1="0" x2="1.778" y2="-0.508" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="-0.508" x2="1.778" y2="0.508" width="0.1524" layer="94"/>
-<wire x1="1.778" y1="0.508" x2="0.508" y2="0" width="0.1524" layer="94"/>
-<wire x1="1.651" y1="0" x2="2.54" y2="0" width="0.1524" layer="94"/>
-<wire x1="1.651" y1="0.254" x2="0.762" y2="0" width="0.3048" layer="94"/>
-<wire x1="0.762" y1="0" x2="1.651" y2="-0.254" width="0.3048" layer="94"/>
-<wire x1="1.651" y1="-0.254" x2="1.651" y2="0" width="0.3048" layer="94"/>
-<wire x1="1.651" y1="0" x2="1.397" y2="0" width="0.3048" layer="94"/>
-<circle x="2.54" y="-1.905" radius="0.127" width="0.4064" layer="94"/>
-<text x="5.08" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<text x="5.08" y="0" size="1.778" layer="96">&gt;VALUE</text>
-<text x="1.27" y="2.54" size="0.8128" layer="93">D</text>
-<text x="1.27" y="-3.175" size="0.8128" layer="93">S</text>
-<text x="-2.54" y="-1.27" size="0.8128" layer="93">G</text>
-<rectangle x1="-0.254" y1="-2.54" x2="0.508" y2="-1.27" layer="94"/>
-<rectangle x1="-0.254" y1="1.27" x2="0.508" y2="2.54" layer="94"/>
-<rectangle x1="-0.254" y1="-0.889" x2="0.508" y2="0.889" layer="94"/>
-<pin name="G" x="-2.54" y="-2.54" visible="off" length="point" direction="pas"/>
-<pin name="D" x="2.54" y="5.08" visible="off" length="short" direction="pas" rot="R270"/>
-<pin name="S" x="2.54" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="N-MOSFET-SO8" urn="urn:adsk.eagle:component:29576/2" prefix="Q" uservalue="yes" library_version="2">
-<description>&lt;b&gt;N-Channel MOSFET&lt;/b&gt;&lt;p&gt;
-Example:&lt;br&gt;
-FDS7760A; N-Channel Logic Level PowerTrench® MOSFET&lt;br&gt;
-FDS2572; N-Channel UltraFET® Trench MOSFET&lt;br&gt;
-Source: www.fairchildsemi.com</description>
-<gates>
-<gate name="G$1" symbol="MFN" x="0" y="0"/>
-</gates>
-<devices>
-<device name="S" package="SO-08">
-<connects>
-<connect gate="G$1" pin="D" pad="5 6 7 8"/>
-<connect gate="G$1" pin="G" pad="4"/>
-<connect gate="G$1" pin="S" pad="1 2 3"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:29505/2"/>
-</package3dinstances>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="B4B-PH-SM4-TB">
 <packages>
 <package name="JST_B4B-PH-SM4-TB">
@@ -17880,17 +17771,19 @@ Source: www.fairchildsemi.com</description>
 <attribute name="PARTNO" value="ERJ-3GEYJ103V"/>
 </part>
 <part name="IR_R" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X3" device="" package3d_urn="urn:adsk.eagle:package:22458/2"/>
-<part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
-<part name="Q2" library="transistor-power" library_urn="urn:adsk.eagle:library:400" deviceset="N-MOSFET-SO8" device="S" package3d_urn="urn:adsk.eagle:package:29505/2"/>
+<part name="IR_LED" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="5MM" package3d_urn="urn:adsk.eagle:package:15799/2"/>
 <part name="R5" library="hh2019_proto" deviceset="R0603-DASHES" device="" value="10k">
 <attribute name="MF" value=""/>
 <attribute name="MPN" value=""/>
 <attribute name="OC_FARNELL" value="unknown"/>
 <attribute name="PARTNO" value="ERJ-3GEYJ103V"/>
 </part>
-<part name="JP2" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
+<part name="BUZZ1" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-1X2" device="" package3d_urn="urn:adsk.eagle:package:22435/2"/>
 <part name="SHITTY-ADDON" library="pinhead" library_urn="urn:adsk.eagle:library:325" deviceset="PINHD-2X2" device="" package3d_urn="urn:adsk.eagle:package:22455/2"/>
 <part name="P1" library="B4B-PH-SM4-TB" deviceset="B4B-PH-SM4-TB" device=""/>
+<part name="Q6" library="SparkFun-DiscreteSemi" deviceset="MOSFET-NCHANNEL" device="2N7002PW" value="SI1304 BDL">
+<attribute name="PARTNO" value="SI1308EDL-T1-GE3"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -18337,13 +18230,9 @@ Source: www.fairchildsemi.com</description>
 <attribute name="NAME" x="260.35" y="140.335" size="1.778" layer="95"/>
 <attribute name="VALUE" x="260.35" y="127" size="1.778" layer="96"/>
 </instance>
-<instance part="LED1" gate="G$1" x="259.08" y="121.92" smashed="yes" rot="R90">
+<instance part="IR_LED" gate="G$1" x="259.08" y="121.92" smashed="yes" rot="R90">
 <attribute name="NAME" x="263.652" y="125.476" size="1.778" layer="95" rot="R180"/>
 <attribute name="VALUE" x="263.652" y="127.635" size="1.778" layer="96" rot="R180"/>
-</instance>
-<instance part="Q2" gate="G$1" x="302.26" y="134.62" smashed="yes">
-<attribute name="NAME" x="307.34" y="137.16" size="1.778" layer="95"/>
-<attribute name="VALUE" x="307.34" y="134.62" size="1.778" layer="96"/>
 </instance>
 <instance part="R5" gate="G$1" x="251.46" y="142.24" smashed="yes">
 <attribute name="NAME" x="253.492" y="140.462" size="1.778" layer="95" rot="R180"/>
@@ -18353,7 +18242,7 @@ Source: www.fairchildsemi.com</description>
 <attribute name="MPN" x="251.46" y="142.24" size="1.778" layer="96" rot="MR270" display="off"/>
 <attribute name="PARTNO" x="251.46" y="142.24" size="1.778" layer="96" rot="MR270" display="off"/>
 </instance>
-<instance part="JP2" gate="G$1" x="304.8" y="114.3" smashed="yes">
+<instance part="BUZZ1" gate="G$1" x="304.8" y="114.3" smashed="yes">
 <attribute name="NAME" x="298.45" y="120.015" size="1.778" layer="95"/>
 <attribute name="VALUE" x="298.45" y="109.22" size="1.778" layer="96"/>
 </instance>
@@ -18364,6 +18253,11 @@ Source: www.fairchildsemi.com</description>
 <instance part="P1" gate="G$1" x="261.62" y="81.28" smashed="yes" rot="R90">
 <attribute name="NAME" x="255.26641875" y="78.73856875" size="1.27071875" layer="95" rot="R90"/>
 <attribute name="VALUE" x="269.249040625" y="78.736990625" size="1.271509375" layer="96" rot="R90"/>
+</instance>
+<instance part="Q6" gate="G$1" x="302.26" y="134.62" smashed="yes" rot="MR0">
+<attribute name="PARTNO" x="302.26" y="134.62" size="1.778" layer="96" rot="MR0" display="off"/>
+<attribute name="NAME" x="297.18" y="137.16" size="1.778" layer="95" rot="MR0"/>
+<attribute name="VALUE" x="297.18" y="134.62" size="1.778" layer="96" rot="MR0"/>
 </instance>
 </instances>
 <busses>
@@ -18585,14 +18479,9 @@ Source: www.fairchildsemi.com</description>
 <label x="254" y="134.62" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="LED1" gate="G$1" pin="C"/>
+<pinref part="IR_LED" gate="G$1" pin="C"/>
 <wire x1="264.16" y1="121.92" x2="266.7" y2="121.92" width="0.1524" layer="91"/>
 <label x="266.7" y="121.92" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="Q2" gate="G$1" pin="S"/>
-<wire x1="304.8" y1="129.54" x2="304.8" y2="127" width="0.1524" layer="91"/>
-<label x="304.8" y="127" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="SHITTY-ADDON" gate="A" pin="1"/>
@@ -18604,6 +18493,11 @@ Source: www.fairchildsemi.com</description>
 <wire x1="265.43" y1="76.2" x2="265.43" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="265.43" y1="66.04" x2="256.54" y2="66.04" width="0.1524" layer="91"/>
 <label x="256.54" y="66.04" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="Q6" gate="G$1" pin="S"/>
+<wire x1="302.26" y1="129.54" x2="302.26" y2="127" width="0.1524" layer="91"/>
+<label x="302.26" y="127" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="+5V" class="2">
@@ -18814,7 +18708,7 @@ Source: www.fairchildsemi.com</description>
 <label x="243.84" y="142.24" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="JP2" gate="G$1" pin="2"/>
+<pinref part="BUZZ1" gate="G$1" pin="2"/>
 <wire x1="302.26" y1="114.3" x2="292.1" y2="114.3" width="0.1524" layer="91"/>
 <label x="292.1" y="114.3" size="1.778" layer="95" rot="R180"/>
 </segment>
@@ -19351,7 +19245,7 @@ Source: www.fairchildsemi.com</description>
 <label x="45.72" y="111.76" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="LED1" gate="G$1" pin="A"/>
+<pinref part="IR_LED" gate="G$1" pin="A"/>
 <wire x1="256.54" y1="121.92" x2="254" y2="121.92" width="0.1524" layer="91"/>
 <label x="254" y="121.92" size="1.778" layer="95" rot="R180"/>
 </segment>
@@ -19363,21 +19257,21 @@ Source: www.fairchildsemi.com</description>
 <label x="45.72" y="121.92" size="1.778" layer="95" rot="R180"/>
 </segment>
 <segment>
-<pinref part="Q2" gate="G$1" pin="G"/>
-<wire x1="299.72" y1="132.08" x2="297.18" y2="132.08" width="0.1524" layer="91"/>
-<label x="297.18" y="132.08" size="1.778" layer="95" rot="R180"/>
+<pinref part="Q6" gate="G$1" pin="G"/>
+<wire x1="309.88" y1="134.62" x2="312.42" y2="134.62" width="0.1524" layer="91"/>
+<label x="312.42" y="134.62" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="BUZZ_OUT" class="0">
 <segment>
-<pinref part="Q2" gate="G$1" pin="D"/>
-<wire x1="304.8" y1="139.7" x2="304.8" y2="142.24" width="0.1524" layer="91"/>
-<label x="304.8" y="142.24" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="JP2" gate="G$1" pin="1"/>
+<pinref part="BUZZ1" gate="G$1" pin="1"/>
 <wire x1="302.26" y1="116.84" x2="292.1" y2="116.84" width="0.1524" layer="91"/>
 <label x="292.1" y="116.84" size="1.778" layer="95" rot="R180"/>
+</segment>
+<segment>
+<pinref part="Q6" gate="G$1" pin="D"/>
+<wire x1="302.26" y1="139.7" x2="302.26" y2="142.24" width="0.1524" layer="91"/>
+<label x="302.26" y="142.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VCC" class="1">
